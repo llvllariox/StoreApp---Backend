@@ -27,6 +27,8 @@ var loginRoutes = require('./routes/login');
 var productoRoutes = require('./routes/producto');
 var categoriaRoutes = require('./routes/categoria');
 var busquedaRoutes = require('./routes/busqueda');
+var uploadRoutes = require('./routes/upload');
+var imagenesRoutes = require('./routes/imagenes');
 
 //Conexion BD atlas con usuario userReadWrite 
 const uri = "mongodb+srv://userReadWrite:af29101988@hospitadb-uewzz.mongodb.net/StoreApp?retryWrites=true&w=majority";
@@ -42,6 +44,8 @@ app.use('/login', loginRoutes);
 app.use('/busqueda', busquedaRoutes);
 app.use('/producto', productoRoutes);
 app.use('/categoria', categoriaRoutes);
+app.use('/upload', uploadRoutes);
+app.use('/img', imagenesRoutes);
 app.use('/', appRoutes);
 
 // Escuchar peticiones
