@@ -41,8 +41,7 @@ app.post('/', (req, res) => {
 
         res.status(201).json({
             ok: true,
-            body: categoriaGuardado,
-            categoriaToken: req.categoria
+            categoria: categoriaGuardado,
         });
 
     });
@@ -158,7 +157,7 @@ app.put('/:id', (req, res) => {
             categoria.password = ':)'
             res.status(200).json({
                 ok: true,
-                body: categoriaGuardado
+                categoria: categoriaGuardado
             });
         })
     });

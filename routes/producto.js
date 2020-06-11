@@ -40,8 +40,7 @@ app.post('/', (req, res) => {
 
         res.status(201).json({
             ok: true,
-            body: productoGuardado,
-            productoToken: req.producto
+            producto: productoGuardado,
         });
 
     });
@@ -158,7 +157,7 @@ app.put('/:id', (req, res) => {
             producto.password = ':)'
             res.status(200).json({
                 ok: true,
-                body: productoGuardado
+                producto: productoGuardado
             });
         })
     });

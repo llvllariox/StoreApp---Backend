@@ -29,7 +29,7 @@ app.put('/:tipo/:id', (req, res, next) => {
     if (!req.files) {
         return res.status(400).json({
             ok: false,
-            mensaje: 'No selecciono archivo',
+            mensaje: 'No selecciono archivo de imagen',
             errors: { message: 'Debe seleccionar un archivo' }
         });
     }
