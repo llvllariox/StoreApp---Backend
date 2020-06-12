@@ -92,7 +92,7 @@ app.get('/:id', (req, res, next) => {
     var id = req.params.id;
     // var desde = req.query.desde || 0;
     // desde = Number(desde);
-    console.log(id);
+    // console.log(id);
     Categoria.findById(id)
         // .populate('categoria', 'nombre')
         .exec(

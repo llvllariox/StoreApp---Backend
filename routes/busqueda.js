@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var Producto = require('../models/producto');
 var Categoria = require('../models/categoria');
+var logger = require('../utils/logger');
 
 
 
@@ -42,7 +43,8 @@ app.get('/:tabla/:busqueda', (req, res) => {
             ok: false,
             mensaje: 'Error al buscar',
             error: err
-        })
+        });
+        logger.error('Error al buscar', { route: `/busqueda/${tabla}/${busqueda}`, method: 'GET', object: null, error: err });
     });
 });
 
@@ -60,6 +62,7 @@ function buscarProductos(busqueda, regex) {
             ])
             .exec((err, productos) => {
                 if (err) {
+                    logger.error('buscarProductos', { route: `/busqueda/${tabla}/${busqueda}`, method: 'GET', object: null, error: err });
                     reject('Error al buscar en productos' + err, err);
                 } else {
                     resolve(productos);
@@ -78,6 +81,7 @@ function buscarCategorias(busqueda, regex) {
             ])
             .exec((err, categorias) => {
                 if (err) {
+                    logger.error('buscarCategorias', { route: `/busqueda/${tabla}/${busqueda}`, method: 'GET', object: null, error: err });
                     reject('Error al buscar en categorias', err);
                 } else {
                     resolve(categorias);

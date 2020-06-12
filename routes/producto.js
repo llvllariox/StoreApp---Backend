@@ -90,7 +90,7 @@ app.get('/:id', (req, res, next) => {
     var id = req.params.id;
     // var desde = req.query.desde || 0;
     // desde = Number(desde);
-    console.log(id);
+    // console.log(id);
     Producto.findById(id)
         .populate('categoria', 'nombre')
         .exec(
@@ -167,8 +167,9 @@ app.put('/:id', (req, res) => {
                 ok: true,
                 producto: productoGuardado
             });
+            logger.info('Producto Actualizado', { route: `/producto/${id}`, method: 'PUT', object: productoGuardado });
         });
-        logger.info('Producto Actualizado', { route: `/producto/${id}`, method: 'PUT', object: productoGuardado });
+
     });
 });
 
