@@ -20,6 +20,7 @@ app.post('/', (req, res) => {
     Usuario.findOne({ email: body.email }, (err, usuarioBD) => {
 
         if (err) {
+            logger.error(`app.post/usuario`, err);
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al buscar Usuario',
@@ -28,6 +29,7 @@ app.post('/', (req, res) => {
         }
 
         if (!usuarioBD) {
+            logger.warn(`app.post/usuario`, { email: body.email, message: 'credenciales incorrectas' });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'credenciales incorrectas - email',
@@ -36,6 +38,7 @@ app.post('/', (req, res) => {
         }
 
         if (!bcrypt.compareSync(body.password, usuarioBD.password)) {
+            logger.warn(`app.post/usuario`, { email: body.email, message: 'credenciales incorrectas' });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'credenciales incorrectas - password',
@@ -45,7 +48,8 @@ app.post('/', (req, res) => {
 
         //Crear Token por que el usuario es valido.
         usuarioBD.password = ':)'
-        var token = jwt.sign({ usuario: usuarioBD }, SEED, { expiresIn: 14400 }) //4horas
+        var token = jwt.sign({ usuario: usuarioBD }, SEED, { expiresIn: 14400 })
+        logger.info(`app.post/usuario`, { email: body.email, message: 'Login correcto' }); //4horas
         res.status(200).json({
             ok: true,
             usuario: usuarioBD,

@@ -1,1 +1,12 @@
 {"message":"app.post/usuario","level":"info","timestamp":"2020-06-12 00:41:35","label":"app.js","metadata":{"email":"test1@test1.com"}}
+{"message":"Express Server puerto 3000: Online","level":"info","timestamp":"2020-06-12 00:42:33","label":"app.js","metadata":{}}
+{"message":"Base de Datos Mongo Atlas: Online","level":"info","timestamp":"2020-06-12 00:42:34","label":"app.js","metadata":{}}
+{"message":"app.post/usuario","level":"error","timestamp":"2020-06-12 00:42:35","label":"app.js","metadata":{"email":"test1@test1.com"}}
+{"message":"Express Server puerto 3000: Online","level":"info","timestamp":"2020-06-12 00:44:52","label":"app.js","metadata":{}}
+{"message":"Base de Datos Mongo Atlas: Online","level":"info","timestamp":"2020-06-12 00:44:53","label":"app.js","metadata":{}}
+{"message":"Express Server puerto 3000: Online","level":"info","timestamp":"2020-06-12 00:45:15","label":"app.js","metadata":{}}
+{"message":"Base de Datos Mongo Atlas: Online","level":"info","timestamp":"2020-06-12 00:45:16","label":"app.js","metadata":{}}
+{"message":"app.post/usuario","level":"info","timestamp":"2020-06-12 00:45:19","label":"app.js","metadata":{"email":"test1@test1.com"}}
+{"message":"app.post/usuario","level":"info","timestamp":"2020-06-12 00:45:19","label":"app.js","metadata":{"email":"test1@test1.com","mesagge":"Login correcto"}}
+{"message":"app.post/usuario","level":"info","timestamp":"2020-06-12 00:45:29","label":"app.js","metadata":{"email":"test1@test1.com"}}
+{"message":"app.post/usuario","level":"warn","timestamp":"2020-06-12 00:45:29","label":"app.js","metadata":{"email":"test1@test1.com","mesagge":"credenciales incorrectas"}}
