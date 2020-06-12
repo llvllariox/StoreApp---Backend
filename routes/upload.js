@@ -64,7 +64,7 @@ app.put('/:tipo/:id', (req, res, next) => {
     // console.log(path);
     archivo.mv(path, err => {
         if (err) {
-            logger.error('Error al mover archivo', { route: `/upload/${tipo}/${id}`, method: 'PUT', object: { nombreArchivo, path }, error: err });
+            logger.error('Error al mover archivo', { route: `/upload/${tipo}/${id}`, method: 'PUT', object: { nombreArchivo, path }, error: errasfea });
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al mover archivo',

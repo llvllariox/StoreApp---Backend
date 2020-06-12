@@ -32,7 +32,7 @@ app.post('/', (req, res) => {
     producto.save((err, productoGuardado) => {
 
         if (err) {
-            logger.error('Producto.save', { route: `/producto`, method: 'POST', object: producto, error: err });
+            logger.error('Producto.save', { route: `/producto`, method: 'POST', object: producto, error: errAny });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'Error al crear producto',

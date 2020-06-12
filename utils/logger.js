@@ -43,6 +43,10 @@ module.exports = winston.createLogger({
                 format.json()
             )
         }),
+
+    ],
+    exceptionHandlers: [
+        new winston.transports.File({ filename: 'logs/exceptions.log', timestamp: true, maxsize: 1000000 })
     ],
     exitOnError: false
 
