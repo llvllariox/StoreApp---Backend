@@ -6,6 +6,7 @@ var mdAutenticacion = require('../middlewares/autenticacion')
 
 var app = express();
 var Producto = require('../models/producto');
+var logger = require('../utils/logger');
 
 //===================================
 // crear nuevo producto OK
@@ -31,17 +32,18 @@ app.post('/', (req, res) => {
     producto.save((err, productoGuardado) => {
 
         if (err) {
+            logger.error('Producto.save', { route: `/producto`, method: 'POST', object: producto, error: err });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'Error al crear producto',
                 errors: err
             });
         }
-
         res.status(201).json({
             ok: true,
             producto: productoGuardado,
         });
+        logger.info('Producto Guardado', { route: `/producto`, method: 'POST', object: producto });
 
     });
 });
@@ -61,6 +63,7 @@ app.get('/', (req, res, next) => {
         .exec(
             (err, productos) => {
                 if (err) {
+                    logger.error('Producto.find', { route: `/producto`, method: 'GET', object: desde, error: err });
                     return res.status(500).json({
                         ok: false,
                         mensaje: 'Error Obteniendo producto',
@@ -74,8 +77,8 @@ app.get('/', (req, res, next) => {
                         productos: productos,
                         total: conteo
                     });
-                })
-
+                });
+                logger.info('Obtiene todos los productos', { route: `/producto`, method: 'GET', object: desde });
             }
         );
 });
@@ -92,7 +95,9 @@ app.get('/:id', (req, res, next) => {
         .populate('categoria', 'nombre')
         .exec(
             (err, producto) => {
+
                 if (err) {
+                    logger.error('Producto.findById', { route: `/producto/${id}`, method: 'GET', object: id, error: err });
                     return res.status(500).json({
                         ok: false,
                         mensaje: 'Error Obteniendo producto',
@@ -104,7 +109,7 @@ app.get('/:id', (req, res, next) => {
                     ok: true,
                     producto: producto
                 });
-
+                logger.info('Obtiene un producto', { route: `/producto/${id}`, method: 'GET', object: producto });
             }
         );
 });
@@ -120,6 +125,7 @@ app.put('/:id', (req, res) => {
     Producto.findById(id, (err, producto) => {
 
         if (err) {
+            logger.error('Producto.findById', { route: `/producto/${id}`, method: 'PUT', object: body, error: err });
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al buscar producto',
@@ -128,6 +134,7 @@ app.put('/:id', (req, res) => {
         }
 
         if (!producto) {
+            logger.error('Producto no existe', { route: `/producto/${id}`, method: 'PUT', object: body, error: err });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'El producto con el id ' + id + ' no existe',
@@ -148,6 +155,7 @@ app.put('/:id', (req, res) => {
 
         producto.save((err, productoGuardado) => {
             if (err) {
+                logger.error('Producto.save', { route: `/producto/${id}`, method: 'PUT', object: body, error: err });
                 return res.status(400).json({
                     ok: false,
                     mensaje: 'Error al actualizar producto',
@@ -159,7 +167,8 @@ app.put('/:id', (req, res) => {
                 ok: true,
                 producto: productoGuardado
             });
-        })
+        });
+        logger.info('Producto Actualizado', { route: `/producto/${id}`, method: 'PUT', object: productoGuardado });
     });
 });
 
@@ -172,6 +181,7 @@ app.delete('/:id', (req, res) => {
     var id = req.params.id;
     Producto.findByIdAndRemove(id, (err, productoBorrado) => {
         if (err) {
+            logger.error('Producto.findByIdAndRemove', { route: `/producto/${id}`, method: 'DELETE', object: id, error: err });
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al borrar producto',
@@ -179,6 +189,7 @@ app.delete('/:id', (req, res) => {
             });
         }
         if (!productoBorrado) {
+            logger.error('Producto no existe', { route: `/producto/${id}`, method: 'DELETE', object: id, error: err })
             return res.status(400).json({
                 ok: false,
                 mensaje: 'El producto con el id ' + id + ' no existe',
@@ -190,6 +201,7 @@ app.delete('/:id', (req, res) => {
             ok: true,
             producto: productoBorrado
         });
+        logger.info('Producto Eliminado', { route: `/producto/${id}`, method: 'DELETE', object: productoBorrado });
     })
 });
 

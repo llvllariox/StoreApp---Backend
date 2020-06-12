@@ -7,30 +7,45 @@ const logFormat = format.printf(info => `${info.timestamp} ${info.level} [${info
 module.exports = winston.createLogger({
     level: 'info',
     format: format.combine(
-        format.label({ label: path.basename(process.mainModule.filename) }),
+        // format.label({ label: path.basename(process.mainModule.filename) }),
         format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
         format.splat(),
         // Format the metadata object
-        format.metadata({ fillExcept: ['message', 'level', 'timestamp', 'label'] })
+        // format.metadata({ fillExcept: ['message', 'level', 'timestamp', 'label'] })
+        // format.metadata({ fillExcept: ['timestamp', 'level', 'message', 'label'] })
+        format.metadata({ fillExcept: ['timestamp', 'level', 'message'] })
     ),
+    // defaultMeta: { service: 'user-service' },
     transports: [
-        new transports.Console({
-            format: format.combine(
-                format.colorize(),
-                logFormat
-            )
-        }),
+        // new transports.Console({
+        //     format: format.combine(
+        //         format.colorize(),
+        //         logFormat
+        //     )
+        // }),
         new transports.File({
-            filename: 'logs/combined.log',
+            level: 'info',
+            filename: 'logs/combine.log',
             format: format.combine(
                 // Render in one line in your log file.
                 // If you use prettyPrint() here it will be really
                 // difficult to exploit your logs files afterwards.
                 format.json()
             )
-        })
+        }),
+        new transports.File({
+            level: 'error',
+            filename: 'logs/error.log',
+            format: format.combine(
+                // Render in one line in your log file.
+                // If you use prettyPrint() here it will be really
+                // difficult to exploit your logs files afterwards.
+                format.json()
+            )
+        }),
     ],
     exitOnError: false
+
 })
 
 

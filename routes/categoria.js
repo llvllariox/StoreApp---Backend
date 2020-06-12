@@ -5,6 +5,7 @@ var mdAutenticacion = require('../middlewares/autenticacion')
 
 var app = express();
 var Categoria = require('../models/categoria');
+var logger = require('../utils/logger');
 
 var limit = 5;
 
@@ -32,6 +33,7 @@ app.post('/', (req, res) => {
     categoria.save((err, categoriaGuardado) => {
 
         if (err) {
+            logger.error('Categoria.save', { route: `/categoria`, method: 'POST', object: categoria, error: err });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'Error al crear categoria',
@@ -43,12 +45,12 @@ app.post('/', (req, res) => {
             ok: true,
             categoria: categoriaGuardado,
         });
-
+        logger.info('Categoria Guardada', { route: `/categoria`, method: 'POST', object: categoria });
     });
 });
 
 //===================================
-// Obtener todos los categoria OK
+// Obtener todos las categoria OK
 //==================================
 app.get('/', (req, res, next) => {
 
@@ -62,6 +64,7 @@ app.get('/', (req, res, next) => {
         .exec(
             (err, categorias) => {
                 if (err) {
+                    logger.error('Categoria.find', { route: `/categoria`, method: 'GET', object: desde, error: err });
                     return res.status(500).json({
                         ok: false,
                         mensaje: 'Error Obteniendo categoria',
@@ -75,7 +78,8 @@ app.get('/', (req, res, next) => {
                         categorias: categorias,
                         total: conteo
                     });
-                })
+                });
+                logger.info('Obtiene todos las categorias', { route: `/categoria`, method: 'GET', object: desde });
 
             }
         );
@@ -94,6 +98,7 @@ app.get('/:id', (req, res, next) => {
         .exec(
             (err, categoria) => {
                 if (err) {
+                    logger.error('Categoria.findById', { route: `/categoria/${id}`, method: 'GET', object: id, error: err });
                     return res.status(500).json({
                         ok: false,
                         mensaje: 'Error Obteniendo categoria',
@@ -106,6 +111,7 @@ app.get('/:id', (req, res, next) => {
                     categoria: categoria,
 
                 });
+                logger.info('Obtiene una categoria', { route: `/categoria/${id}`, method: 'GET', object: categoria });
             }
         );
 });
@@ -120,6 +126,7 @@ app.put('/:id', (req, res) => {
     Categoria.findById(id, (err, categoria) => {
 
         if (err) {
+            logger.error('Categoria.findById', { route: `/categoria/${id}`, method: 'PUT', object: body, error: err });
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al buscar categoria',
@@ -128,6 +135,7 @@ app.put('/:id', (req, res) => {
         }
 
         if (!categoria) {
+            logger.error('Categoria no existe', { route: `/categoria/${id}`, method: 'PUT', object: body, error: err });
             return res.status(400).json({
                 ok: false,
                 mensaje: 'El categoria con el id ' + id + ' no existe',
@@ -148,6 +156,7 @@ app.put('/:id', (req, res) => {
 
         categoria.save((err, categoriaGuardado) => {
             if (err) {
+                logger.error('Categoria.save', { route: `/categoria/${id}`, method: 'PUT', object: body, error: err });
                 return res.status(400).json({
                     ok: false,
                     mensaje: 'Error al actualizar categoria',
@@ -159,6 +168,7 @@ app.put('/:id', (req, res) => {
                 ok: true,
                 categoria: categoriaGuardado
             });
+            logger.info('Categoria Actualizado', { route: `/categoria/${id}`, method: 'PUT', object: categoriaGuardado });
         })
     });
 });
@@ -172,6 +182,7 @@ app.delete('/:id', (req, res) => {
     var id = req.params.id;
     Categoria.findByIdAndRemove(id, (err, categoriaBorrado) => {
         if (err) {
+            logger.error('Categoria.findByIdAndRemove', { route: `/categoria/${id}`, method: 'DELETE', object: id, error: err });
             return res.status(500).json({
                 ok: false,
                 mensaje: 'Error al borrar categoria',
@@ -179,6 +190,7 @@ app.delete('/:id', (req, res) => {
             });
         }
         if (!categoriaBorrado) {
+            logger.error('Categoria no existe', { route: `/categoria/${id}`, method: 'DELETE', object: id, error: err })
             return res.status(400).json({
                 ok: false,
                 mensaje: 'El categoria con el id ' + id + ' no existe',
@@ -190,6 +202,7 @@ app.delete('/:id', (req, res) => {
             ok: true,
             categoria: categoriaBorrado
         });
+        logger.info('Categoria Eliminado', { route: `/categoria/${id}`, method: 'DELETE', object: categoriaBorrado });
     })
 });
 

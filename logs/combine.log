@@ -1,0 +1,72 @@
+{"timestamp":"2020-06-12 10:46:15","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:46:16","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:48:06","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:48:07","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:49:14","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:49:16","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:49:22","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"POST","object":0}}
+{"timestamp":"2020-06-12 10:49:26","level":"info","message":"Obtiene un producto","metadata":{"route":"/producto/5ee271d047210b23b4091980","method":"GET","object":"5ee271d047210b23b4091980"}}
+{"timestamp":"2020-06-12 10:49:31","level":"info","message":"Producto Actualizado","metadata":{"route":"/producto/5ee271d047210b23b4091980","method":"PUT","object":{"nombre":"Producto 1","precio":20000,"descripcion":"Producto 1","stock":40,"categoria":"5ee0f8235ef2e51e84bc9bfe","oferta":true,"destacado":true,"nuevo":true,"descuento":30,"activo":true}}}
+{"timestamp":"2020-06-12 10:50:30","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:50:32","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:51:26","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:51:27","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:51:31","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"POST","object":0}}
+{"timestamp":"2020-06-12 10:51:35","level":"info","message":"Producto Eliminado","metadata":{"route":"/producto/5ee39259897e6845b43bc200","method":"PUT","object":{"_id":"5ee39259897e6845b43bc200","nombre":"Producto prueba pro","precio":500000,"descripcion":"producto de prueba","stock":30000,"categoria":"5ee29c431f159007fccdaf68","oferta":true,"destacado":true,"nuevo":true,"descuento":50,"activo":true,"__v":0,"img":"5ee39259897e6845b43bc200-498.svg"}}}
+{"timestamp":"2020-06-12 10:51:35","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"POST","object":0}}
+{"timestamp":"2020-06-12 10:52:45","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:52:46","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:52:54","level":"info","message":"Obtiene un producto","metadata":{"route":"/producto/5ee271d047210b23b4091980","method":"GET","object":{"_id":"5ee271d047210b23b4091980","nombre":"Producto 1","precio":20000,"descripcion":"Producto 1","stock":40,"categoria":{"_id":"5ee0f8235ef2e51e84bc9bfe","nombre":"Electro"},"oferta":true,"destacado":true,"nuevo":true,"descuento":30,"activo":true,"__v":0,"img":"5ee271d047210b23b4091980-268.svg"}}}
+{"timestamp":"2020-06-12 10:53:19","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:53:21","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:53:38","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:53:39","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:54:09","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:54:10","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:54:56","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:54:57","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:31","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:32","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:49","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:50","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:53","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:55:54","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:56:08","level":"info","message":"Categoria Guardada","metadata":{"route":"/categoria","method":"POST","object":{"_id":"5ee39787fea4d33e50dd77b7","nombre":"Categoria prueba log","activo":true,"__v":0}}}
+{"timestamp":"2020-06-12 10:56:39","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:56:41","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:07","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:08","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:32","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:33","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:44","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:57:45","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:58:34","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:58:35","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:58:59","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:59:01","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:59:28","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:59:29","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 10:59:32","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-12 10:59:36","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-12 10:59:45","level":"info","message":"Obtiene una categoria","metadata":{"route":"/categoria/5ee0f21b5ef2e51e84bc9bfa","method":"GET","object":{"_id":"5ee0f21b5ef2e51e84bc9bfa","nombre":"Baño","activo":true,"__v":0,"img":"5ee0f21b5ef2e51e84bc9bfa-83.svg"}}}
+{"timestamp":"2020-06-12 11:00:36","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:00:37","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:01:06","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:01:07","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:01:32","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:01:32","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:01:59","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:00","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:24","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:25","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:43","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:44","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:57","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:02:58","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:03:05","level":"info","message":"Categoria Actualizado","metadata":{"route":"/categoria/5ee0f21b5ef2e51e84bc9bfa","method":"PUT","object":{"_id":"5ee0f21b5ef2e51e84bc9bfa","nombre":"Baño 2","activo":true,"__v":0,"img":"5ee0f21b5ef2e51e84bc9bfa-83.svg"}}}
+{"timestamp":"2020-06-12 11:03:20","level":"info","message":"Categoria Actualizado","metadata":{"route":"/categoria/5ee0f21b5ef2e51e84bc9bfa","method":"PUT","object":{"_id":"5ee0f21b5ef2e51e84bc9bfa","nombre":"Baño","activo":true,"__v":0,"img":"5ee0f21b5ef2e51e84bc9bfa-83.svg"}}}
+{"timestamp":"2020-06-12 11:03:22","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-12 11:03:25","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-12 11:03:25","level":"info","message":"Categoria Eliminado","metadata":{"route":"/categoria/5ee39787fea4d33e50dd77b7","method":"DELETE","object":{"_id":"5ee39787fea4d33e50dd77b7","nombre":"Categoria prueba log","activo":true,"__v":0,"img":"5ee39787fea4d33e50dd77b7-23.svg"}}}
+{"timestamp":"2020-06-12 11:04:06","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-12 11:04:08","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}

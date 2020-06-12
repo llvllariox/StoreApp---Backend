@@ -58,8 +58,8 @@ const uri = "mongodb+srv://userReadWrite:af29101988@hospitadb-uewzz.mongodb.net/
 
 mongoose.connect(uri, (err, res) => {
     if (err) throw err;
-    logger.info('Base de Datos Mongo Atlas: Online');
-    // logger.info('Base de Datos Mongo Atlas: \x1b[32m%s\x1b[0m', 'Online');
+    logger.info('Base de Datos Mongo Atlas: Online', { respuesta: 'OK' });
+    console.log('Base de Datos Mongo Atlas: \x1b[32m%s\x1b[0m', 'Online');
 });
 
 //Rutas la principal va al final.
@@ -74,6 +74,6 @@ app.use('/', appRoutes);
 
 // Escuchar peticiones
 app.listen(port, () => {
-    logger.info(`Express Server puerto ${port}: Online`);
-    // logger.info(`Express Server puerto ${port}: \x1b[32m%s\x1b[0m`, 'Online');
+    logger.info(`Express Server puerto ${port}: Online`, { respuesta: 'OK' });
+    console.log(`Express Server puerto ${port}: \x1b[32m%s\x1b[0m`, 'Online');
 })
