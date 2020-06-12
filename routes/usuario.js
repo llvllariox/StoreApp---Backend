@@ -6,6 +6,8 @@ var mdAutenticacion = require('../middlewares/autenticacion')
 
 var app = express();
 var Usuario = require('../models/usuario');
+var logger = require('../utils/logger');
+
 
 //===================================
 // crear nuevo usuario

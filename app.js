@@ -2,6 +2,22 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var logger = require('./utils/logger');
+
+// //Winston logger
+// const logger = winston.createLogger({
+//     level: 'info',
+//     format: winston.format.json(),
+//     defaultMeta: { service: 'user-service' },
+//     transports: [
+//         //
+//         // - Write to all logs with level `info` and below to `combined.log` 
+//         // - Write all logs error (and below) to `error.log`.
+//         //
+//         new winston.transports.File({ filename: 'error.log', level: 'error' }),
+//         new winston.transports.File({ filename: 'combined.log' })
+//     ]
+// });
 
 //Heroku
 const port = process.env.PORT || 3000;
@@ -42,7 +58,8 @@ const uri = "mongodb+srv://userReadWrite:af29101988@hospitadb-uewzz.mongodb.net/
 
 mongoose.connect(uri, (err, res) => {
     if (err) throw err;
-    console.log('Base de Datos Mongo Atlas: \x1b[32m%s\x1b[0m', 'Online');
+    logger.info('Base de Datos Mongo Atlas: Online');
+    // logger.info('Base de Datos Mongo Atlas: \x1b[32m%s\x1b[0m', 'Online');
 });
 
 //Rutas la principal va al final.
@@ -57,5 +74,6 @@ app.use('/', appRoutes);
 
 // Escuchar peticiones
 app.listen(port, () => {
-    console.log(`Express Server puerto ${port}: \x1b[32m%s\x1b[0m`, 'Online');
+    logger.info(`Express Server puerto ${port}: Online`);
+    // logger.info(`Express Server puerto ${port}: \x1b[32m%s\x1b[0m`, 'Online');
 })

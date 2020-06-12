@@ -5,6 +5,7 @@ var SEED = require('../config/config').SEED;
 
 var app = express();
 var Usuario = require('../models/usuario');
+var logger = require('../utils/logger');
 
 
 //---------------------------------------------------
@@ -13,6 +14,9 @@ var Usuario = require('../models/usuario');
 
 app.post('/', (req, res) => {
     var body = req.body;
+    // var log = req;
+    // log.body.password = ':)';
+    logger.info(`app.post/usuario`, { email: body.email });
     Usuario.findOne({ email: body.email }, (err, usuarioBD) => {
 
         if (err) {

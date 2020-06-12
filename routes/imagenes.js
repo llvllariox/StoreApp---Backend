@@ -1,11 +1,28 @@
 var express = require('express');
+var windston = require('winston');
 var app = express();
 const path = require('path');
 const fs = require('fs');
+// var winston = require('winston');
 
-
+//Winston logger
+// const logger = winston.createLogger({
+//     level: 'info',
+//     format: winston.format.json(),
+//     defaultMeta: { service: 'user-service' },
+//     transports: [
+//         //
+//         // - Write to all logs with level `info` and below to `combined.log` 
+//         // - Write all logs error (and below) to `error.log`.
+//         //
+//         new winston.transports.File({ filename: 'error.log', level: 'error' }),
+//         new winston.transports.File({ filename: 'combined.log' })
+//     ]
+// });
 // Rutas
 app.get('/:tipo/:img', (req, res, next) => {
+
+
 
     var tipo = req.params.tipo;
     var img = req.params.img;
