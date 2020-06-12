@@ -58,7 +58,7 @@ app.get('/', (req, res, next) => {
 
     Categoria.find({})
         .skip(desde)
-        .limit(limit)
+        // .limit(limit)
         .exec(
             (err, categorias) => {
                 if (err) {
