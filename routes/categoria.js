@@ -13,8 +13,8 @@ var limit = 5;
 // crear nuevo categoria OK
 //==================================
 app.post('/', (req, res) => {
-
     var body = req.body;
+    console.log(body);
 
     var categoria = new Categoria({
         nombre: body.nombre,
