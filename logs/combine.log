@@ -408,3 +408,7 @@
 {"timestamp":"2020-06-15 19:17:26","level":"info","message":"Categoria Guardada","metadata":{"route":"/sendEmail","method":"POST","object":{"nombre":"Mario Nuñez","email":"llvllario@gmail.com","telefono":"994573453465","mensaje":"favor su ayuda para ver el siguiente problema"}}}
 {"timestamp":"2020-06-15 19:17:52","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
 {"timestamp":"2020-06-15 19:17:53","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-15 19:31:58","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-15 19:32:32","level":"info","message":"Envio Email","metadata":{"route":"/sendEmail","method":"POST","object":{"nombre":"Mario Nuñez Angular","email":"llvllario@gmail.com","telefono":1234567434,"mensaje":"favor su ayuda"}}}
+{"timestamp":"2020-06-15 19:32:35","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-15 19:32:36","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}

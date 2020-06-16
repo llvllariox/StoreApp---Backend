@@ -35,13 +35,17 @@ app.post('/', (req, res, next) => {
         // send mail with defined transport object
         let info = await transporter.sendMail({
                 from: 'contacto@ausa-store.com', // sender address
-                to: "contacto@ausa-store.com", // list of receivers
-                subject: "Consulta WEB", // Subject line
+                to: `contacto@ausa-store.com, ${email}`, // list of receivers
+                subject: "Ingreso Consulta WEB", // Subject line
                 // text: mensaje, // plain text body
-                html: `<p><b>Nombre: </b> ${nombre}</p>
+                html: `<p><b> Tu consulta ha sido ingresada exitosamente. </b></p>
+                       <hr>   
+                       <p><b>Nombre: </b> ${nombre}</p>
                        <p><b>Email: </b> ${email}</p>
                        <p><b>Telefono: </b> ${telefono}</p>
-                       <p><b>Mensaje: </b> ${mensaje}</p>`, // html body
+                       <p><b>Mensaje: </b> ${mensaje}</p>
+                       <hr>
+                       <p><i> No pondremos en contacto contigo a la brevedad. </i></p>`, // html body
             })
             .then(
                 resp => {
