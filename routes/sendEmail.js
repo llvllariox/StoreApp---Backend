@@ -1,3 +1,7 @@
+var env = require('node-env-file'); // .env file
+env('./.env.dist');
+console.log(__dirname);
+
 var express = require('express');
 var app = express();
 const nodemailer = require("nodemailer");
@@ -12,6 +16,13 @@ app.post('/', (req, res, next) => {
     var email = body.email;
     var telefono = body.telefono;
     var mensaje = body.mensaje;
+    var tls
+
+    if (process.env.EMAIL_TLS == 'false') {
+        tls = false
+    } else {
+        tls = true
+    }
 
     // async..await is not allowed in global scope, must use a wrapper
     async function main() {
@@ -19,16 +30,16 @@ app.post('/', (req, res, next) => {
         let testAccount = await nodemailer.createTestAccount();
 
         let transporter = nodemailer.createTransport({
-            host: "smtp.mail.us-east-1.awsapps.com",
-            port: 465,
+            host: process.env.EMAIL_HOST,
+            port: process.env.EMAIL_PORT,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: 'contacto@ausa-store.com', // generated ethereal user
-                pass: 'Xiaomi@321102A', // generated ethereal password
+                user: process.env.EMAIL_USER, // generated ethereal user
+                pass: process.env.EMAIL_PASSWORD, // generated ethereal password
             },
             tls: {
                 // do not fail on invalid certs
-                rejectUnauthorized: false
+                rejectUnauthorized: tls
             }
         });
 
