@@ -1,3 +1,5 @@
 node_modules/
 logs/.log
 .dist
+uploads/categorias/.*
+uploads/productos/.*
