@@ -1,5 +1,5 @@
 node_modules/
-logs/.log
+logs/*.log
 .env.dist
 uploads/categorias/.*
 uploads/productos/.*
