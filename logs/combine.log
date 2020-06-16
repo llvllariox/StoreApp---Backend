@@ -494,3 +494,5 @@
 {"timestamp":"2020-06-16 11:14:01","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
 {"timestamp":"2020-06-16 11:14:02","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
 {"timestamp":"2020-06-16 11:14:08","level":"info","message":"Envio Email","metadata":{"route":"/sendEmail","method":"POST","object":{"nombre":"Mario Nuñez","email":"llvllario@gmail.com","telefono":"994573453465","mensaje":"favor su ayuda para ver el siguiente problema"}}}
+{"timestamp":"2020-06-16 11:16:45","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-16 11:16:46","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
