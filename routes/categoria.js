@@ -1,7 +1,7 @@
 var express = require('express');
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
-var mdAutenticacion = require('../middlewares/autenticacion')
+var mdAutenticacion = require('../middlewares/autenticacion');
 
 var app = express();
 var Categoria = require('../models/categoria');
@@ -12,7 +12,7 @@ var limit = 5;
 //===================================
 // crear nuevo categoria OK
 //==================================
-app.post('/', (req, res) => {
+app.post('/', mdAutenticacion.verificaToken, (req, res) => {
     var body = req.body;
     console.log(body);
 
@@ -118,7 +118,7 @@ app.get('/:id', (req, res, next) => {
 //===================================
 // Actualizar categoria OK
 //==================================
-app.put('/:id', (req, res) => {
+app.put('/:id', mdAutenticacion.verificaToken, (req, res) => {
 
     var id = req.params.id;
     var body = req.body;
@@ -177,7 +177,7 @@ app.put('/:id', (req, res) => {
 //===================================
 // Eliminar categoria OK
 //==================================
-app.delete('/:id', (req, res) => {
+app.delete('/:id', mdAutenticacion.verificaToken, (req, res) => {
 
     var id = req.params.id;
     Categoria.findByIdAndRemove(id, (err, categoriaBorrado) => {

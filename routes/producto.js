@@ -2,7 +2,7 @@ var express = require('express');
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 // var SEED = require('../config/config').SEED;
-var mdAutenticacion = require('../middlewares/autenticacion')
+var mdAutenticacion = require('../middlewares/autenticacion');
 
 var app = express();
 var Producto = require('../models/producto');
@@ -11,7 +11,7 @@ var logger = require('../utils/logger');
 //===================================
 // crear nuevo producto OK
 //==================================
-app.post('/', (req, res) => {
+app.post('/', mdAutenticacion.verificaToken, (req, res) => {
 
     var body = req.body;
 
@@ -117,7 +117,7 @@ app.get('/:id', (req, res, next) => {
 //===================================
 // Actualizar producto OK
 //==================================
-app.put('/:id', (req, res) => {
+app.put('/:id', mdAutenticacion.verificaToken, (req, res) => {
 
     var id = req.params.id;
     var body = req.body;
@@ -177,7 +177,7 @@ app.put('/:id', (req, res) => {
 //===================================
 // Eliminar producto OK
 //==================================
-app.delete('/:id', (req, res) => {
+app.delete('/:id', mdAutenticacion.verificaToken, (req, res) => {
 
     var id = req.params.id;
     Producto.findByIdAndRemove(id, (err, productoBorrado) => {

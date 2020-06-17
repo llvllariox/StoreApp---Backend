@@ -1,8 +1,8 @@
 var express = require('express');
-var windston = require('winston');
 var app = express();
 const path = require('path');
 const fs = require('fs');
+
 
 // Rutas
 app.get('/:tipo/:img', (req, res, next) => {
