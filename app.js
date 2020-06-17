@@ -6,22 +6,29 @@ var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var logger = require('./utils/logger');
+var fs;
+var http;
+var https;
+var privateKey;
+var certificate;
+var ca;
+var credentials;
 
 if (process.env.ENV == 'AWS') {
 
     // AWS -- Dependencies
-    const fs = require('fs');
-    const http = require('http');
-    const https = require('https');
+    fs = require('fs');
+    http = require('http');
+    https = require('https');
 
 
     // AWS -- Certificate SSL
-    const privateKey = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/privkey.pem', 'utf8');
-    const certificate = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/cert.pem', 'utf8');
-    const ca = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/chain.pem', 'utf8');
+    privateKey = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/privkey.pem', 'utf8');
+    certificate = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/cert.pem', 'utf8');
+    ca = fs.readFileSync('/etc/letsencrypt/live/ausa-store.com/chain.pem', 'utf8');
 
     // AWS -- Credentials
-    const credentials = {
+    credentials = {
         key: privateKey,
         cert: certificate,
         ca: ca

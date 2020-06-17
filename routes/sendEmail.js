@@ -56,7 +56,7 @@ app.post('/', (req, res, next) => {
                        <p><b>Telefono: </b> ${telefono}</p>
                        <p><b>Mensaje: </b> ${mensaje}</p>
                        <hr>
-                       <p><i> No pondremos en contacto contigo a la brevedad. </i></p>`, // html body
+                       <p><i> Nos pondremos en contacto contigo a la brevedad. </i></p>`, // html body
             })
             .then(
                 resp => {
