@@ -1614,3 +1614,318 @@
 {"timestamp":"2020-06-17 18:30:19","level":"info","message":"Envio Email","metadata":{"route":"/sendEmail","method":"POST","object":{"nombre":"Mario Nuñez","email":"llvllario@gmail.com","telefono":4999454544,"mensaje":"Mensaje de prueba"}}}
 {"timestamp":"2020-06-17 18:30:20","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
 {"timestamp":"2020-06-17 18:30:20","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-17 19:20:03","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-17 19:20:04","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-17 21:35:44","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-17 21:35:45","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 09:37:01","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 09:37:51","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 09:38:30","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 09:38:31","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 10:33:28","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 10:33:30","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 10:33:36","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:39","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:43","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:44","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:33:49","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:34:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:34:25","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:34:51","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:35:03","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:35:05","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:35:05","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:35:05","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:18","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:19","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:19","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:40","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:41","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:41","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:55","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:56","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:36:56","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:02","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:02","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:02","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:44","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:45","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:37:45","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:09","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:25","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:43","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:52","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:52","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:38:52","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:01","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:01","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:01","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:18","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:19","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:19","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:36","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:37","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:37","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:55","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:55","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:39:56","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:17","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:17","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:17","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:47","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:40:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:41:18","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:41:18","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:41:18","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:36","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:37","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:37","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:54","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:54","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:42:54","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:43:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:43:06","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:43:07","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:44:05","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:44:31","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:44:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:45:15","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:45:26","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:45:40","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:46:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:46:32","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:46:42","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:47:19","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:47:30","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:48:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:48:28","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:49:13","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:49:29","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:50:03","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:50:15","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:50:24","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:50:31","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:50:40","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:28","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:38","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:53","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:51:58","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:05","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:38","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:45","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:45","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:52:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:53:38","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:53:41","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:53:42","level":"info","message":"Obtiene un producto","metadata":{"route":"/producto/5ee271d047210b23b4091980","method":"GET","object":{"_id":"5ee271d047210b23b4091980","nombre":"Producto 1","precio":20000,"descripcion":"Producto 111","stock":40,"categoria":{"_id":"5ee0f8235ef2e51e84bc9bfe","nombre":"Electro"},"oferta":true,"destacado":true,"nuevo":true,"descuento":30,"activo":true,"__v":0,"img":"5ee271d047210b23b4091980-268.svg"}}}
+{"timestamp":"2020-06-18 10:53:57","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 10:58:17","level":"info","message":"Credenciales incorrectas - Password","metadata":{"route":"/login","method":"POST","object":"test1@test1.com"}}
+{"timestamp":"2020-06-18 10:59:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:01:36","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 11:01:37","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 11:01:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:01:39","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:01:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:03:05","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:03:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:04:07","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:04:10","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:05:02","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:05:38","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:05:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:06:55","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:07:03","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:07:41","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:08:15","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:09:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:10:02","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:10:22","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:11:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:11:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:11:59","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:12:36","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:13:01","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:13:14","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:14:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:35:58","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:36:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:37:08","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:37:29","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:38:20","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:38:37","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:39:02","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:39:15","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:39:45","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:40:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:40:54","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:41:14","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:41:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:41:37","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:42:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:43:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:56:11","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:56:52","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:57:22","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:57:42","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:57:50","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:58:18","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:58:32","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:59:27","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:59:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 11:59:52","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:01:23","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:01:39","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:02:13","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:02:26","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:03:11","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:03:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:03:30","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:04:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:04:42","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:05:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:05:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:05:40","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:05:58","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:06:04","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:06:16","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:07:41","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:11:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:11:25","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:11:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:12:26","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:21","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:21","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:21","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:29","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:31","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:31","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-18 12:13:31","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 14:04:37","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 14:04:38","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:50:52","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:52:23","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:52:24","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:52:47","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:52:48","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:13","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:14","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:32","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:33","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:48","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:53:50","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-06-18 23:54:51","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:54:57","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:55:08","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:58:10","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:58:17","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-18 23:59:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:06:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:06:33","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:06:42","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:06:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:07:00","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"test1@test1.com"}}
+{"timestamp":"2020-06-19 00:07:00","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:07:04","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:07:04","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:07:04","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:09:21","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:09:21","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:09:26","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:09:27","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:09:27","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:10:27","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:10:27","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:10:27","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:12:31","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:12:40","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:12:40","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:30","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:31","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:34","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:13:43","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:13:44","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:32","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:32","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:35","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:35","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:35","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:15:42","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:15:42","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:10","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:10","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:45","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:45","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:48","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:48","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:17:55","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:18:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:18:06","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:18:06","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:19:45","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:19:46","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:19:46","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:19:53","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:20:30","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:20:30","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:20:31","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:20:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:20:43","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:20:44","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:21:07","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:21:07","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:21:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:21:12","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:21:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:24:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:24:09","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:24:09","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:25:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:25:12","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:25:12","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:27:49","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:27:49","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:27:49","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:28:00","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:28:28","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:28:36","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:30:23","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:30:34","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:30:42","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:30:42","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:31:24","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:31:33","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"llvllario@gmail.com"}}
+{"timestamp":"2020-06-19 00:31:34","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:31:37","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:31:38","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:32:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:32:00","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:32:00","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:02","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"test1@test1.com"}}
+{"timestamp":"2020-06-19 00:35:27","level":"info","message":"Login","metadata":{"route":"/login","method":"POST","object":"test1@test1.com"}}
+{"timestamp":"2020-06-19 00:35:27","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:27","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:39","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:40","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:42","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:42","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:43","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:47","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:35:51","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:36:05","level":"info","message":"Obtiene todos las categorias","metadata":{"route":"/categoria","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:36:05","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}
+{"timestamp":"2020-06-19 00:36:39","level":"info","message":"Obtiene todos los productos","metadata":{"route":"/producto","method":"GET","object":0}}

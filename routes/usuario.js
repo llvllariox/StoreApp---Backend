@@ -20,6 +20,7 @@ app.post('/', (req, res) => {
         nombre: body.nombre,
         email: body.email,
         password: bcrypt.hashSync(body.password, 10),
+        estado: body.estado,
         // img: body.img,
         role: body.role
     });
@@ -37,7 +38,7 @@ app.post('/', (req, res) => {
         res.status(201).json({
             ok: true,
             body: usuarioGuardado,
-            usuarioToken: req.usuario
+            // usuarioToken: req.usuario
         });
 
     });

@@ -8,9 +8,10 @@ var rolesValidos = {
 }
 
 var usuarioSchema = new Schema({
-    nombre: { type: String, required: [true, 'El nombre es Obligatorio'] },
-    email: { type: String, unique: true, required: [true, 'El email es Obligatorio'] },
-    password: { type: String, required: [true, 'La contraseña es Obligatoria'] },
+    nombre: { type: String, required: [true, 'Nombre es Obligatorio'] },
+    email: { type: String, unique: true, required: [true, 'Email es Obligatorio'] },
+    password: { type: String, required: [true, 'Contraseña es Obligatoria'] },
+    estado: { type: String, required: [true, 'Estado contraseña es Obligatoria'] },
     role: { type: String, required: true, default: 'USER_ROLE', enum: rolesValidos },
 });
 
