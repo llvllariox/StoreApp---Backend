@@ -16,6 +16,7 @@ app.post('/', (req, res, next) => {
     var email = body.email;
     var telefono = body.telefono;
     var mensaje = body.mensaje;
+    var tipo = body.tipo;
     var tls
 
     if (process.env.EMAIL_TLS == 'false') {
@@ -43,8 +44,8 @@ app.post('/', (req, res, next) => {
             }
         });
 
-        // send mail with defined transport object
-        let info = await transporter.sendMail({
+        if (tipo = 1) {
+            template = {
                 from: 'contacto@ausa-store.com', // sender address
                 to: `contacto@ausa-store.com, ${email}`, // list of receivers
                 subject: "Ingreso Consulta WEB", // Subject line
@@ -57,7 +58,28 @@ app.post('/', (req, res, next) => {
                        <p><b>Mensaje: </b> ${mensaje}</p>
                        <hr>
                        <p><i> Nos pondremos en contacto contigo a la brevedad. </i></p>`, // html body
-            })
+            }
+        }
+
+        if (tipo = 2) {
+            var link = body.link;
+            template = {
+                from: 'contacto@ausa-store.com', // sender address
+                to: `contacto@ausa-store.com, ${email}`, // list of receivers
+                subject: "Confirmacion correo Electronico", // Subject line
+                // text: mensaje, // plain text body
+                html: `<p><b></b></p>
+                       <hr>   
+                       <p><b>Estimad@: </b> ${nombre}</p>
+                       <p><b>Favor activa tu cuenta en el siguiente link:</b></p>
+                       <p>${link}</p>
+                       <hr>
+                       <p></p>`, // html body
+            }
+        }
+
+        // send mail with defined transport object
+        let info = await transporter.sendMail(template)
             .then(
                 resp => {
                     logger.info('Envio Email', { route: `/sendEmail`, method: 'POST', object: { nombre, email, telefono, mensaje } });

@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
 
         res.status(201).json({
             ok: true,
-            body: usuarioGuardado,
+            usuario: usuarioGuardado,
             // usuarioToken: req.usuario
         });
 
