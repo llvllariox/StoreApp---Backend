@@ -24,7 +24,7 @@ app.post('/', (req, res, next) => {
     } else {
         tls = true
     }
-
+    console.log(tipo);
     // async..await is not allowed in global scope, must use a wrapper
     async function main() {
 
@@ -44,7 +44,7 @@ app.post('/', (req, res, next) => {
             }
         });
 
-        if (tipo = 1) {
+        if (tipo == 1) {
             template = {
                 from: 'contacto@ausa-store.com', // sender address
                 to: `contacto@ausa-store.com, ${email}`, // list of receivers
@@ -61,7 +61,7 @@ app.post('/', (req, res, next) => {
             }
         }
 
-        if (tipo = 2) {
+        if (tipo == 2) {
             var link = body.link;
             template = {
                 from: 'contacto@ausa-store.com', // sender address
