@@ -12,7 +12,7 @@ var pedidoSchema = new Schema({
     telefono: { type: Number, required: [true, 'Telefono es Obligatorio'] },
     adicional: { type: String },
     articulos: { type: Array, required: [true, 'Debe seleccionar un articulo para comprar'] },
-
+    fecha: { type: Date, required: [true, 'Debe seleccionar un fecha para comprar'] },
     // precio: { type: Number, required: [true, 'Precio es Obligatorio'] },
     // descripcion: { type: String, required: [true, 'Descripcion es Obligatorio'] },
     // stock: { type: Number, required: [true, 'Stock es Obligatorio'] },
