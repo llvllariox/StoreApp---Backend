@@ -64,6 +64,7 @@ var busquedaRoutes = require('./routes/busqueda');
 var uploadRoutes = require('./routes/upload');
 var imagenesRoutes = require('./routes/imagenes');
 var sendEmailRoutes = require('./routes/sendEmail');
+var pedidoRoutes = require('./routes/pedido');
 
 if (process.env.ENV == 'AWS') {
     // AWS -- Conexion BD Localhost EC2
@@ -92,6 +93,7 @@ app.use('/categoria', categoriaRoutes);
 app.use('/upload', uploadRoutes);
 app.use('/img', imagenesRoutes);
 app.use('/sendEmail', sendEmailRoutes);
+app.use('/pedido', pedidoRoutes);
 app.use('/', appRoutes);
 
 if (process.env.ENV == 'AWS') {
