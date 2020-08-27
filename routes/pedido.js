@@ -9,13 +9,14 @@ var Pedido = require('../models/pedido');
 var logger = require('../utils/logger');
 
 //===================================
-// crear nuevo producto OK
+// crear nuevo pedidos
 //==================================
 app.post('/', mdAutenticacion.verificaToken, (req, res) => {
 
     var body = req.body;
 
     var pedido = new Pedido({
+        email: body.email,
         nombre: body.nombre,
         apellido: body.apellido,
         direccion1: body.direccion1,
@@ -47,40 +48,36 @@ app.post('/', mdAutenticacion.verificaToken, (req, res) => {
     });
 });
 
-// //===================================
-// // Obtener todos los producto OK
-// //==================================
-// app.get('/', (req, res, next) => {
+//=====================================
+// Obtener todos los pedidos de un email
+//=====================================
+app.get('/:email', (req, res, next) => {
 
-//     var desde = req.query.desde || 0;
-//     desde = Number(desde);
+    var email = req.params.email;
+    console.log(email);
+    Pedido.findOne({ email })
+        .exec(
+            (err, pedidos) => {
+                if (err) {
+                    logger.error('Pedido.find', { route: `/pedido`, method: 'GET', object: desde, error: err });
+                    return res.status(500).json({
+                        ok: false,
+                        mensaje: 'Error Obteniendo pedido',
+                        errors: err
+                    });
+                }
 
-//     Producto.find({})
-//         .skip(desde)
-//         // .limit(5)
-//         .populate('categoria', 'nombre')
-//         .exec(
-//             (err, productos) => {
-//                 if (err) {
-//                     logger.error('Producto.find', { route: `/producto`, method: 'GET', object: desde, error: err });
-//                     return res.status(500).json({
-//                         ok: false,
-//                         mensaje: 'Error Obteniendo producto',
-//                         errors: err
-//                     });
-//                 }
-
-//                 Producto.count({}, (err, conteo) => {
-//                     res.status(200).json({
-//                         ok: true,
-//                         productos: productos,
-//                         total: conteo
-//                     });
-//                 });
-//                 logger.info('Obtiene todos los productos', { route: `/producto`, method: 'GET', object: desde });
-//             }
-//         );
-// });
+                Pedido.count({ email }, (err, conteo) => {
+                    res.status(200).json({
+                        ok: true,
+                        pedidos: pedidos,
+                        total: conteo
+                    });
+                });
+                logger.info('Obtiene todos los pedidos', { route: `/pedidos`, method: 'GET', object: desde });
+            }
+        );
+});
 // //===================================
 // // Obtener un producto 
 // //==================================

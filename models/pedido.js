@@ -2,13 +2,14 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var pedidoSchema = new Schema({
+    email: { type: String, required: [true, 'email es Obligatorio'] },
     nombre: { type: String, required: [true, 'Nombre es Obligatorio'] },
     apellido: { type: String, required: [true, 'Apellido es Obligatorio'] },
     direccion1: { type: String, required: [true, 'Dirección es Obligatorio'] },
     direccion2: { type: String },
     region: { type: String, required: [true, 'Región es Obligatorio'] },
     comuna: { type: String, required: [true, 'Comuna es Obligatorio'] },
-    telefono: { type: String, required: [true, 'Telefono es Obligatorio'] },
+    telefono: { type: Number, required: [true, 'Telefono es Obligatorio'] },
     adicional: { type: String },
     articulos: { type: Array, required: [true, 'Debe seleccionar un articulo para comprar'] },
 
