@@ -32,3 +32,7 @@
 {"timestamp":"2020-08-27 16:08:37","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
 {"timestamp":"2020-08-27 16:09:21","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
 {"timestamp":"2020-08-27 16:09:22","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-08-27 16:10:08","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-08-27 16:10:14","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-08-27 16:14:51","level":"info","message":"Express Server puerto 3000: Online","metadata":{"respuesta":"OK"}}
+{"timestamp":"2020-08-27 16:14:52","level":"info","message":"Base de Datos Mongo Atlas: Online","metadata":{"respuesta":"OK"}}

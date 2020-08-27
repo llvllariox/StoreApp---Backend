@@ -26,7 +26,8 @@ app.post('/', mdAutenticacion.verificaToken, (req, res) => {
         telefono: body.telefono,
         adicional: body.adicional,
         articulos: body.articulos,
-        fecha: body.fecha
+        fecha: body.fecha,
+        total: body.total
     });
 
     pedido.save((err, pedidoGuardado) => {
